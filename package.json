@@ -1,0 +1,20 @@
+{
+  "name": "tixy",
+  "version": "0.0.3",
+  "description": "CLI for tsserver",
+  "bin": {
+    "tixy-server": "./bin/tixy-server",
+    "tixy-client": "./bin/tixy-client"
+  },
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleh Kashnikau",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.8",
+    "typescript": "^2.3.0"
+  }
+}
